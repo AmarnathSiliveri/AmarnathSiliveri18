@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amarnath Siliveri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Amarnath Siliveri</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Medium-Blog">Medium Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Amarnath Siliveri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Medium-Blog" onclick="toggleMenu()">Medium Blog</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profiles/amar-circle.jpg" alt="Amarnath Siliveri profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Amarnath Siliveri</h1>
+        <p class="section__text__p2">🚀 Data Scientist | Coder | Problem Solver | Video Editor | LLM Enthusiast 📚</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/amar-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/socials/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/amarnath-siliveri18/'"
+          />
+          <img
+            src="./assets/socials/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SilverStark18'"
+          />
+          <img
+            src="./assets/socials/medium (1).png"
+            alt="My Medium Blog"
+            class="icon"
+            onclick="location.href='https://medium.com/@amartalks25603'"
+           />
+           <img
+            src="./assets/socials/twitter (1).png"
+            alt="My X Profile"
+            class="icon"
+            onclick="location.href='https://x.com/Siliveri%20Amarnath'"
+            />
+            <img
+            src="./assets/socials/instagram.png"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/itz.__.amar.__/'"
+            />
+            <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg"
+            alt="My threads profile"
+            class="icon"
+            onclick="location.href='https://www.threads.net/@itz.__.amar.__/'"
+            />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profiles/amar-bw-pro-sqaure.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/competence.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Proficient in</h3>
+              <p>Data Science, Coding, Problem Solving,LLMs<br />Blog Writer@amartalks25603<br />
+               Video Editing,Canva,Leveraging AI tools</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech CSE(DATA SCIENCE)</p><p>Rajeev Gandhi Memorial College of Engineering and Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Welcome! I am a passionate data scientist who thrives on solving complex problems and driving innovation. Skilled in coding and data analysis, I excel at turning raw data into actionable insights.
+            </p>
+            <br>
+            <p>
+              I am also a video editing enthusiast, creating compelling visual stories to communicate ideas effectively. My love for technology keeps me exploring new advancements in AI and machine learning.
+            </p>
+            <br>
+            <p>
+              With a strong academic background in Computer Science and Data Science, I have honed my skills in data manipulation, statistical analysis, and predictive modeling through various hands-on projects.
+            </p>
+            <br>
+            <p>
+              Beyond the technical realm, I am an avid reader who values continuous learning and intellectual curiosity. Let's connect and collaborate to transform data into innovative solutions!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/c.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/r.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/html5.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Html5</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/css3.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS3</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Libraries</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/scikit-learn-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scikit-learn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/tf.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/Keras_logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Keras</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/streamlit-mark-color.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Streamlit</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/mediapipe_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mediapipe</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> 
+              
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Libraries</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/matplotlib-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/seaborn-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Seaborn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/langchain-logo-png.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Langchain</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/opencv.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+ 
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Visualization Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/tableau-software-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/power-bi-icon-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Development Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/github-1.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/vscode.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/gcolab.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Colab-G</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/jupyter.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>jupyter</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/anaconda.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Anaconda</h3>
+                  <p>experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/spyder.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spyder</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Multimedia Mastery & Creative Expression</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/skills-icons/davinci-resolve.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Video Editing-DaVinci</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/canva.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/photography.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photography</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/blog.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Blog writing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/skills-icons/clipchamp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ClipChamp</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <div style="height: 100px;"></div>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects-pics/p1-s.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Amargptall</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SilverStark18/amargptall'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://amargptall.streamlit.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects-pics/p2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SilverStark18/youtubesummariser'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://unotes.streamlit.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects-pics/p3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ATS_TRACKER</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SilverStark18/ATS_TrackerProject/tree/master'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://atsresumesys.streamlit.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Medium-Blog'"
+      />
+    </section>
+    
+    <section id="Medium-Blog">
+      
+      <p class="section__text__p1">Read My</p>
+      <h1 class="title">Latest Blog Posts</h1>
+            <div class="posts-container">
+        <!-- Medium posts will be inserted here -->
+        <div class='sk-ww-medium-publication-feed' data-embed-id='25420367'></div><script src='https://widgets.sociablekit.com/medium-publication-feed/widget.js' async defer></script>
+        </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+   
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/socials/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:amarnathsiliveri@gmail.com">amarnathsiliveri@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/socials/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/amarnath-siliveri18/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Medium-Blog">Medium Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Amarnath Siliveri. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
